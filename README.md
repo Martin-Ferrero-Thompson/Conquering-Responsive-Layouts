@@ -1,2 +1,2 @@
 # Conquering-Responsive-Layouts
- CSS - Kevin Poweel 21 Day Challenge
+ CSS - Kevin Powell 21 Day Challenge
