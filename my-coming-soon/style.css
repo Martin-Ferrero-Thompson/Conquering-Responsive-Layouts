@@ -1,0 +1,150 @@
+/* style.css */
+
+/* User-Agent Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --brand-accent-color: #8214e0;
+  --brand-name-black: #222222;
+  --body-text-color: #222222;
+  --body-background-color: #f0f0f0;
+  --heading-font-family: 'Montserrat', sans-serif;
+  --body-font-family: 'Roboto Condensed', sans-serif;
+  --presents-font-family: 'Cormorant Garamond', serif;
+  --main-element-spacing: 1rem; 
+}
+
+/* Base Styles */
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  font-family: var(--body-font-family);
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(to bottom, #D0A3F0, #8214e0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--body-text-color);
+}
+
+.card-container {
+  background-color: var(--body-background-color);
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  background-color: #d0a9ec;
+}
+
+header {
+  background-color: #f0f0f0;
+  border: solid 1px black;
+}
+
+main {
+  background-color: lightblue;
+  border: solid 1px black;
+}
+
+footer {
+  background-color: lightyellow;
+  border: solid 1px black;
+}
+.intro {
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
+}
+
+.intro-content {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.5rem;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-left {
+  text-align: left;
+  justify-content: flex-start;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-right {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.footer-left a {
+  color: var(--body-text-color);
+  text-decoration: none;
+  margin-left: 0;
+}
+
+.footer-left a:hover {
+  color: var(--brand-accent-color);
+}
+
+.footer-left .material-symbols-outlined {
+  margin-right: 5px;
+  font-size: 1.5rem;
+  color: var(--brand-accent-color);
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: opacity 0.3s ease;
+  filter: invert(36%) sepia(61%) saturate(2259%) hue-rotate(237deg) brightness(91%) contrast(90%);
+}
+
+.social-links img:hover {
+  opacity: 0.7;
+  filter: invert(46%) sepia(71%) saturate(2359%) hue-rotate(247deg) brightness(101%) contrast(100%);
+}
