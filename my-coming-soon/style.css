@@ -49,17 +49,17 @@ body {
 
 header {
   background-color: #f0f0f0;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 main {
   background-color: lightblue;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 footer {
   background-color: lightyellow;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 
